@@ -15,6 +15,6 @@ public class HumanPlayer implements Player{
 
     @Override
     public void respond( boolean lowerOrGreater ) {
-        LoggerFactory.getLogger( "player" ).log( lowerOrGreater ? "Lower" : "Greater" );
+        LoggerFactory.getLogger( "player" ).log( lowerOrGreater ? "Greater" : "Lower" );
     }
 }
