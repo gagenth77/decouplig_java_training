@@ -25,7 +25,7 @@ public class ComputerPlayer implements Player {
     // true means that input value was lower, thus expected value is greater
     @Override
     public void respond(boolean lowerOrGreater) {
-        LoggerFactory.getLogger( "computer" ).log( lowerOrGreater ? "Greater" : "Lower" );
+        LoggerFactory.getLogger( "player" ).log( lowerOrGreater ? "Greater" : "Lower" );
         lastGuessLowerOrGreater = lowerOrGreater;
     }
 }
